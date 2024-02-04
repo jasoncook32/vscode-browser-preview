@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "configurations": [
     {
+      "name": "PowerShell Attach to Host Process",
+      "type": "PowerShell",
+      "request": "attach",
+      "runspaceId": 1
+    },
+
+    {
       "type": "chrome",
       "request": "launch",
       "name": "Launch Chrome",
